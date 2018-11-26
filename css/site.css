@@ -4,23 +4,43 @@ body {
 }
 .head-span {
 	width: 100%;
-	height: 50xp;
+	display: block;
+	height: 5vh;
 }
 
 .head-left {
-	width: 30%;
+	width: 20%;
 	background-color: #4B4B4B;
 	float: left;
+	height: 100%;
 }
 .head-center {
-	width: 40%;
+	width: 60%;
 	background-color: #A35455;
 	float: left;
 	clear: right;
+	height: 100%;
 }
 .head-right {
-	width: 30%;
+	width: 20%;
 	background-color: #4A0809;
 	float: left;
 	clear: right;
+	height: 100%;
+}
+.nav-overlay {
+	width: 100%;
+	height: 95vh;
+	background-color: #7163B7;
+	z-index: 10;
+	display: block;
+}
+.pagenav-toggle {
+}
+#pagenave-icon {
+	width: 32px;
+}
+
+
+#pagenav {
 }
