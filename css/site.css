@@ -1,2 +1,26 @@
-/* CSS Document */
+body {
+	padding: 0px;
+	margin: 0px;
+}
+.head-span {
+	width: 100%;
+	height: 50xp;
+}
 
+.head-left {
+	width: 30%;
+	background-color: #4B4B4B;
+	float: left;
+}
+.head-center {
+	width: 40%;
+	background-color: #A35455;
+	float: left;
+	clear: right;
+}
+.head-right {
+	width: 30%;
+	background-color: #4A0809;
+	float: left;
+	clear: right;
+}
