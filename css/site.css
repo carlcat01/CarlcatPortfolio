@@ -1,6 +1,10 @@
 body {
 	padding: 0px;
 	margin: 0px;
+	background-color: #171717;
+	color: #ECECEC;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-size: large;
 }
 .head-span {
 	width: 100%;
