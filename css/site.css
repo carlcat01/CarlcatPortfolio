@@ -5,6 +5,24 @@ body {
 	color: #ECECEC;
 	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
 	font-size: large;
+	vertical-align: middle;
+}
+html {
+  overflow:   scroll y;
+}
+::-webkit-scrollbar {
+    width: 20px;
+    background: #2A2A2A; 
+}
+::-webkit-scrollbar-track {
+    background: #2A2A2A;  
+}
+ 
+::-webkit-scrollbar-thumb {
+    background: #ECECEC;  
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #CCCCCC;  
 }
 .head-span {
 	width: 100%;
