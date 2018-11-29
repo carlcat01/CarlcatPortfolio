@@ -34,7 +34,9 @@ img {
 	height: 19.4vw;
 	float: left;
 	border: .3vw solid #2A2A2A;
+	vertical-align: middle;
 }
+
 .box_50 {
 	width: 39.4vw;
 	height: 39.4vw;
@@ -54,8 +56,10 @@ img {
 	height: 39.4vw;
 	border: .3vw solid #2A2A2A;
 }
-.fr {
-	float: right;
+.box_100_2 {
+	width: 79.4vw;
+	height: 19.4vw;
+	border: .3vw solid #2A2A2A;
 }
 
 .title_container{
@@ -104,9 +108,40 @@ opacity: 1;
 .darken {
 	opacity: 0.4;
 }
+
 .smalltxt {
 	font-size: 150%;
 }
+
+
 .largetxt {
 	font-size: 400%;
+}
+.txt-container {
+	display: table;
+	margin: 0px;
+	padding: 0px;
+}
+.txt-cell {
+	display: table-cell;
+	vertical-align: middle;
+	margin: 0px;
+	padding: 0px;
+}
+.txt_title {
+	color: #ECECEC;
+	font-size: 140%;
+	font-weight: bold;
+	text-transform: uppercase;
+	line-height: 90%;
+}
+.txt_body {
+	color: #B3B3B3;
+	display: inline-block;
+}
+
+
+
+.fr {
+	float: right;
 }
