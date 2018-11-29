@@ -105,7 +105,8 @@ opacity: 1;
 	opacity: 0.4;
 }
 .smalltxt {
-	line-height: 100%;
-	font-weight: 600;
 	font-size: 150%;
+}
+.largetxt {
+	font-size: 400%;
 }
