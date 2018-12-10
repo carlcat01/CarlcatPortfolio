@@ -1,4 +1,4 @@
-Version: 1.2.0
+Version: 1.2.1
 
 Version numbers show the build.  The first number X.0.0 is the marker of which main build the site is in.
 The second, 0.X.0 marks the release build.  It will change for wach publish to a live site.
