@@ -30,18 +30,20 @@ img {
 }
 
 .box_25 {
-	width: 19.4vw;
-	height: 19.4vw;
-	float: left;
-	border: .3vw solid #2A2A2A;
-	vertical-align: middle;
+    width: 19.4vw;
+    height: 19.4vw;
+    float: left;
+    border: .3vw solid #2A2A2A;
+    margin: 0px;
+    padding: 0px;
+    vertical-align: middle;
 }
 
 .box_50 {
-	width: 39.4vw;
-	height: 39.4vw;
-	float: left;
-	border: .3vw solid #2A2A2A;
+    width: 39.4vw;
+    height: 39.4vw;
+    float: left;
+    border: .3vw solid #2A2A2A;
 }
 .box_50_2 {
 	width: 39.4vw;
@@ -148,4 +150,7 @@ opacity: 1;
 
 .fr {
 	float: right;
+}
+.cl {
+	clear: left;
 }
