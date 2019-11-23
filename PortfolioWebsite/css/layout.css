@@ -1,0 +1,156 @@
+img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	opacity: 1;
+}
+.hz_line {
+	height: 0.5vh;
+	background-color: #ECECEC;
+	display: block;
+	width: 90%;
+	float: left;
+	margin-left: 5%;
+	margin-top: 20px;
+}
+.topic {
+	width: 80vw;
+	text-align: center;
+	margin-left: 10vw;
+	background-color: #2A2A2A;
+	float: left;
+	margin-top: 20px;
+}
+
+.box_12 {
+	width: 9.4vw;
+	height: 9.4vw;
+	float: left;
+	border: .3vw solid #2A2A2A;
+}
+
+.box_25 {
+    width: 19.4vw;
+    height: 19.4vw;
+    float: left;
+    border: .3vw solid #2A2A2A;
+    margin: 0px;
+    padding: 0px;
+    vertical-align: middle;
+}
+
+.box_50 {
+    width: 39.4vw;
+    height: 39.4vw;
+    float: left;
+    border: .3vw solid #2A2A2A;
+}
+.box_50_2 {
+	width: 39.4vw;
+	height: 19.4vw;
+	float: left;
+	border: .3vw solid #2A2A2A;
+}
+
+
+.box_100 {
+	width: 79.4vw;
+	height: 39.4vw;
+	border: .3vw solid #2A2A2A;
+}
+.box_100_2 {
+	width: 79.4vw;
+	height: 19.4vw;
+	border: .3vw solid #2A2A2A;
+}
+
+.title_container{
+	position: relative;
+	padding: 5%;
+	width: 90%;
+	top: -101%;
+	z-index: 3;
+	margin: 0px;
+	height: 90%;
+	display: table;
+}
+.img_title {
+	display:  table-cell;
+	opacity: 1;
+	line-height: 100%;
+	font-weight: 600;
+	font-size: 200%;
+	vertical-align: middle;
+	
+
+}
+.highlight img{
+opacity: 1;
+	 -moz-transition: all .5s ease-in-out;
+  -webkit-transition: all .5s ease-in-out;
+  -ms-transition: all .5s ease-in-out;
+  -o-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+}
+.highlight .img_title{
+		opacity: 0;
+ -moz-transition: all .5s ease-in-out;
+  -webkit-transition: all .5s ease-in-out;
+  -ms-transition: all .5s ease-in-out;
+  -o-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+}
+.highlight:hover img{
+    opacity: 0.2;
+    background-color: #000000;
+}
+.highlight:hover .img_title{
+	opacity: 1;
+}
+.darken {
+	opacity: 0.4;
+}
+
+.smalltxt {
+	font-size: 150%;
+}
+
+
+.largetxt {
+	font-size: 400%;
+}
+.txt-container {
+	display: table;
+	margin: 0px;
+	padding: 0px;
+}
+.hidden {
+	display: none;
+}
+
+.txt-cell {
+	display: table-cell;
+	vertical-align: middle;
+	margin: 0px;
+	padding: 0px;
+}
+.txt_title {
+	color: #FF4D51;
+	font-size: 140%;
+	font-weight: bold;
+	text-transform: uppercase;
+	line-height: 90%;
+}
+.txt_body {
+	color: #B3B3B3;
+	display: inline-block;
+}
+
+
+
+.fr {
+	float: right;
+}
+.cl {
+	clear: left;
+}
